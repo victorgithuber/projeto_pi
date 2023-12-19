@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-xrZ6c0Nz81vN7L6qopQqUd0Ml1M5sJLOZzQ0A90pRSV7RQa3RjE6Pr12K5NmZeght9Idb4gP4mPZmAU9O3sRg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="estilo.css">
+    
+    <title>CANTO DO OTAKU</title>
+</head>
+
+<body>
+  
+    
+    <div class="nome text-center">
+        <h1>Canto do Otaku</h1>
+    </div>
+   
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Canto do Otaku</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Filmes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Noticias</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Opçoes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#animes">Animes</a></li>
+                  <li><a class="dropdown-item" href="#filmes">Filmes</a></li>
+                  <li><a class="dropdown-item" href="#noticias">Noticias</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#pesquisados">Pesquisados</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">plano</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    <br>
+
+    <div class="container text-light">
+    <h2>DESTAQUES</h2>
+  </div>
+  <br>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img_animes/carrossel_dbs.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img_animes/carrossel_naruto.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img_animes/carrossel_cowboy bebop.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      
+    <br>
+    <div class="container text-light" id="animes">
+        <h2>ANIMES</h2>
+    </div>
+    <br>
+
+    <div class="container">
+      <div class="row">
+  
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="./img_animes/poster_deathnote.jpg" class="card-img-top" alt="Death Note">
+                  <div class="card-body">
+                      <h5 class="card-title">Death Note</h5>
+                      Light Yagami, um estudante que encontra um caderno capaz de matar qualquer pessoa cujo nome seja escrito nele. Light decide usá-lo para eliminar criminosos e criar um mundo ideal, desencadeando um jogo de gato e rato com o detetive L.
+                  </div>
+              </div>
+          </div>
+  
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="./img_animes/poster_fullmetall.jpg" class="card-img-top" alt="Fullmetal Alchemist">
+                  <div class="card-body">
+                      <h5 class="card-title">Fullmetal Alchemist</h5>
+                     
+                      "Fullmetal Alchemist" é um anime que segue os irmãos Edward e Alphonse Elric em busca da Pedra Filosofal para restaurar seus corpos, 
+                      perdidos após uma experiência alquímica mal-sucedida. 
+                  </div>
+              </div>
+          </div>
+  
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="./img_animes/poster_jojo.webp" class="card-img-top" alt="JoJo's Bizarre Adventure">
+                  <div class="card-body">
+                      <h5 class="card-title">JoJo's Bizarre Adventure</h5>
+                     
+                      "Jojo's Bizarre Adventure" é um anime que segue várias gerações da família Joestar, cada uma enfrentando ameaças sobrenaturais com habilidades especiais chamadas "Stands.
+                      Uma experiência envolvente para fãs de aventuras sobrenaturais.
+                  </div>
+              </div>
+          </div>
+  
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="./img_animes/poster_jujustsu.jpg" class="card-img-top" alt="Jujutsu Kaisen">
+                  <div class="card-body">
+                      <h5 class="card-title">Jujutsu Kaisen</h5>
+                      
+                    "Jujutsu Kaisen" segue Yuji Itadori, um estudante habilidoso arrastado para o mundo das maldições. 
+                    Junto com outros usuários de jujutsu, ele luta contra maldições para proteger a humanidade. 
+                    Com ação intensa e personagens cativantes, o anime oferece uma emocionante jornada sobrenatural.
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+        <br> <br>
+        <div class="container text-light" id="filmes">
+            <h2>FILMES</h2>
+        </div>
+
+        <br>
+
+  
+        <div class="container">
+          <div class="row">
+      
+              <div class="col-md-3">
+                  <div class="card">
+                      <img src="./img_animes/filme_capa_akira.webp" class="card-img-top" alt="AKIRA">
+                      <div class="card-body">
+                          <h5 class="card-title">AKIRA</h5>
+                          a história segue Kaneda e seu amigo Tetsuo, que ganha poderes telecinéticos após um encontro sobrenatural. Confrontando segredos governamentais e conspirações, o filme explora temas de poder, corrupção e a natureza humana.
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-md-3">
+                  <div class="card">
+                      <img src="./img_animes/filme_capa_kokuriko.webp" class="card-img-top" alt="Da colina Kokuriko">
+                      <div class="card-body">
+                          <h5 class="card-title">Da colina Kokuriko</h5>
+                          
+                        "Da Colina Kokuriko" é uma animação japonesa que acompanha Umi e Shun, estudantes do ensino médio nos anos 1960, 
+                        enquanto se unem para preservar um clube estudantil.
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-md-3">
+                  <div class="card">
+                      <img src="./img_animes/filme_capa_pompoko.webp" class="card-img-top" alt="PomPoko - A Grande Batalha dos Guaxinins">
+                      <div class="card-body">
+                          <h5 class="card-title">PomPoko - A Grande Batalha dos Guaxinins</h5>
+                          os guaxinins tanuki lutam para preservar sua floresta contra a urbanização humana. Usando suas habilidades mágicas de transformação, 
+                          enfrentam uma batalha épica para salvar seu lar.
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-md-3">
+                  <div class="card">
+                      <img src="./img_animes/filme_capa_jujutsu.jpg" class="card-img-top" alt="Jujutsu Kaisen 0">
+                      <div class="card-body">
+                          <h5 class="card-title">Jujutsu Kaisen 0</h5>
+                       
+                        "Jujutsu Kaisen 0" explora as origens do universo de feitiçaria, seguindo Yuta em sua luta contra um culto sinistro e uma maldição assustadora. 
+                        Com exorcistas ao seu lado, a história destaca a intensa batalha entre a humanidade e o sobrenatural, 
+                        oferecendo ação e magia característicos de "Jujutsu Kaisen".
+                     </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="container text-light" id="pesquisados">
+        <h2>PESQUISADOS ANTERIORMENTE</h2>
+    </div>
+
+    <br>
+
+
+    <div class="container">
+      <div class="row">
+  
+        <div class="col-md-3">
+          <div class="card">
+              <img src="./img_animes/filme_capa_pompoko.webp" class="card-img-top" alt="PomPoko - A Grande Batalha dos Guaxinins">
+              <div class="card-body">
+                  <h5 class="card-title">PomPoko - A Grande Batalha dos Guaxinins</h5>
+                  os guaxinins tanuki lutam para preservar sua floresta contra a urbanização humana. Usando suas habilidades mágicas de transformação, 
+                  enfrentam uma batalha épica para salvar seu lar.
+              </div>
+          </div>
+      </div>
+  
+     
+
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="./img_animes/filme_capa_jujutsu.jpg" class="card-img-top" alt="Jujutsu Kaisen 0">
+                  <div class="card-body">
+                      <h5 class="card-title">Jujutsu Kaisen 0</h5>
+                   
+                 
+                      "Jujutsu Kaisen 0" explora as origens do universo de feitiçaria, seguindo Yuta em sua luta contra um culto sinistro e uma maldição assustadora. 
+                      Com exorcistas ao seu lado, a história destaca a intensa batalha entre a humanidade e o sobrenatural, oferecendo ação e magia característicos de "Jujutsu Kaisen".
+              </div>
+          </div>
+      </div>
+  </div>
+ 
+  <br><br>
+ 
+ <div class="container text-center">
+  <div class="container text-light" id="noticias">
+    <h2>ÚLTIMAS NOTÍCIAS</h2>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="./img_animes/noticia_theboyandtheheron" class="card-img-top" alt="O novo sucesso do Studio Ghibli">
+                <div class="card-body">
+                    <h5 class="card-title">A volta de Hayao Miyazaki</h5>
+                    <p class="card-text"> Novo filme destaca a importância da compreensão e do respeito pela natureza, transmitindo uma mensagem poética sobre a coexistência pacífica entre os mundos humano e mágico. 
+                      Com a estética visual distintiva do Studio Ghibli e uma trilha sonora envolvente, "O Menino e a Garça" promete cativar o público com sua narrativa emocionante e beleza visual deslumbrante. 
+                      Prepare-se para se perder na magia deste conto encantador que celebra a ligação especial entre um menino curioso e uma garça extraordinária.</p>
+                      <br>
+                    <a href="#" class="btn btn-primary">Leia Mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="./img_animes/noticia_one.webp" class="card-img-top" alt=" One piece temporada 2">
+                <div class="card-body">
+                    <h5 class="card-title">Netflix anuncia 2 temporada do Live action de One Piece</h5>
+                    <p class="card-text" col-md-4>Com uma produção cinematográfica de alta qualidade, efeitos visuais de última geração e um elenco incrível que captura a essência de cada personagem, 
+                      "One Piece: Mar em Chamas" promete levar os fãs a uma jornada ainda mais emocionante e imersiva no universo de "One Piece".</p>
+                      <br>
+                    <a href="#" class="btn btn-primary">Leia Mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="./img_animes/noticia_rengoku.webp" class="card-img-top" alt="Rengoku Cosplay">
+                <div class="card-body">
+                    <h5 class="card-title">Cosplay de Rengoku é a coisa mais surpreendente que voce vera hoje</h5>
+                    <p class="card-text">A atenção aos detalhes por parte dos cosplayers foi verdadeiramente notável. Desde as chamas dançantes da respiração do fogo até a intricada aderência do uniforme de Hashira, cada elemento foi reproduzido com precisão impressionante. 
+                      A paleta de cores vibrantes, típica do personagem, iluminou o local, proporcionando aos fãs uma experiência visual autêntica.</p>
+                      <br>
+                    <a href="#" class="btn btn-primary">Leia Mais</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+
+      <div class="col-md-4">
+          <div class="card mb-4">
+              <img src="./img_animes/noticia_kaijuu8.png" class="card-img-top" alt="O novo manga de kaiju 8">
+              <div class="card-body">
+                  <h5 class="card-title">KAIJU NO. 8 Tera mangá Spin-Off</h5>
+                  <p class="card-text">O evento Jump Festa 24 revelou que o mangá Kaiju No. 8 de Naoya Matsumoto está tendo um spin-off.
+                    O mangá Kaiju No. 8 lado B estreará na Shonen Jump em 5 de janeiro. O mangá contará a história de vários membros das Forças de Defesa na linha de frente.
+                     Kentarou Hidano está desenhando o mangá e Naoya Matsumoto e Keiji Andou são creditados com o trabalho original.</p>
+                  <a href="#" class="btn btn-primary">Leia Mais</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="card mb-4">
+              <img src="./img_animes/noticia_boku no hero 7 temp.jpg" class="card-img-top" alt="Nova temporada Boku No Hero">
+              <div class="card-body">
+                  <h5 class="card-title">A 7 temporada de Boku no Hero academia e anunciada</h5>
+                  <p class="card-text">Com uma narrativa cada vez mais intensa e aprofundada, a nova temporada promete desafios ainda maiores para Deku e sua turma na U.A. High School. 
+                    Novos vilões surgirão, novas alianças serão forjadas, e os limites dos poderes dos heróis serão testados como nunca antes.</p>
+                  <a href="#" class="btn btn-primary">Leia Mais</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="card mb-4">
+              <img src="./img_animes/noticia_rengoku.webp" class="card-img-top" alt="Rengoku banido">
+              <div class="card-body">
+                  <h5 class="card-title">Título da Notícia 3</h5>
+                  <p class="card-text">Descrição breve da notícia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="btn btn-primary">Leia Mais</a>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+
+      <div class="col-md-4">
+          <div class="card mb-4">
+              <img src="./img_animes/noticia_theboyandtheheron" class="card-img-top" alt="O novo sucesso do Studio Ghibli">
+              <div class="card-body">
+                  <h5 class="card-title">Título da Notícia 1</h5>
+                  <p class="card-text">Descrição breve da notícia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="btn btn-primary">Leia Mais</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="card mb-4">
+              <img src="./img_animes/noticia_one.webp" class="card-img-top" alt=" One piece temporada 2">
+              <div class="card-body">
+                  <h5 class="card-title">Título da Notícia 2</h5>
+                  <p class="card-text">Descrição breve da notícia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="btn btn-primary">Leia Mais</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="card mb-4">
+              <img src="./img_animes/noticia_rengoku.webp" class="card-img-top" alt="Rengoku banido">
+              <div class="card-body">
+                  <h5 class="card-title">Título da Notícia 3</h5>
+                  <p class="card-text">Descrição breve da notícia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="btn btn-primary">Leia Mais</a>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</div>
+
+
