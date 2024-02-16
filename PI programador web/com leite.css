@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #57bad2;
+    margin: 0S;
+}
+
+#header {
+    width: 100%;
+    height: 137px;
+    padding-top: 10px;
+}
+
+#logo {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -214px;
+}
+
+#logoimg {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20;
+}
+
+#titulologo {
+    float: left;
+    color: #ffc32a;
+    line-height: 100px;
+    margin: 20;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#navbar {
+    background-color: #0E6BA8;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar a {
+    color: #fffb2c;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #0E6BA8;
+}
+
+#titulocont {
+    color: #ffc32a;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#segundotitulocont {
+    color: #ffc32a;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.tituloproduto {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffc32a;
+}
+
+.precoproduto {
+    font-size: 20px;
+    color: #ffd05a;
+    font-weight: bold;
+}
+
+
+#areaprodutos table {
+    border-spacing: 25px;
+    border-collapse: separate;
+    text-align: center;
+}
+
+#areaprodutos td {
+    width: 250px;
+    color: #ffc32a;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#areaprodutos td img {
+    width: 370px;
+    height: 525px;
+    margin-top: 5px;
+    border-radius: 50px;
+    border: 10px solid #D0D3E0;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffc32a;
+    box-sizing: border-box;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    display: inline-block;
+    color: #00072D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #57bad2;
+    color: #00072D;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

@@ -1,0 +1,833 @@
+body {
+    position: inherit;
+    width: 1444px;
+    height: 1917px;
+    flex-shrink: 0;
+    background-color: black;
+    color: #FFF;
+}
+
+#sectionfirst {
+    margin-left: 20%;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #00072D;
+    width: 1310px;
+    height: 1552px;
+}
+
+#h2first {
+    position: relative;
+    top: 5%;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#h4first {
+    position: relative;
+    top: 5%;
+    margin-bottom: 20%;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    color: #FFF;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGINTJ {
+    position: relative;
+    bottom: 8%;
+    left: 12%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #CD6CDD;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#INTJ {
+    position: relative;
+    bottom: 4%;
+    left: 2%;
+    width: 166px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #CD6CDD;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGINTP {
+    position: relative;
+    bottom: 8%;
+    left: 12%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #CD6CDD;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#INTP {
+    position: relative;
+    bottom: 4%;
+    left: 2%;
+    margin-bottom: 5%;
+    width: 165px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #CD6CDD;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGENTJ {
+    position: relative;
+    bottom: 8%;
+    left: 12%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #CD6CDD;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#ENTJ {
+    position: relative;
+    bottom: 4%;
+    left: 2%;
+    width: 166px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #CD6CDD;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGENTP {
+    position: relative;
+    bottom: 8%;
+    left: 12%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #CD6CDD;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#ENTP {
+    position: relative;
+    bottom: 4%;
+    left: 2%;
+    width: 166px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #CD6CDD;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGINFJ {
+    margin-bottom: 10%;
+    margin-left: 12%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #55C883;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#INFJ {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 165px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #55C883;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGINFP {
+    margin-bottom: 10%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #55C883;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#INFP {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 165px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #55C883;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGENFJ {
+    margin-bottom: 10%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #55C883;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#ENFJ {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 165px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #55C883;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGENFP {
+    margin-bottom: 10%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #55C883;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#ENFP {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 165px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #55C883;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGISTJ {
+    margin-bottom: 10%;
+    margin-left: 12%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #7ACFFF;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#ISTJ {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 166px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #7ACFFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGISFJ {
+    margin-bottom: 10%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #7ACFFF;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#ISFJ {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 168px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #7ACFFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGESTJ {
+    margin-bottom: 10%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #7ACFFF;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#ESTJ {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 165px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #7ACFFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGESFJ {
+    margin-bottom: 10%;
+    width: 172px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #7ACFFF;
+    background: url(<path-to-image>), light
+}
+
+#ESFJ {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 165px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #7ACFFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGISTP {
+    margin-bottom: 10%;
+    margin-left: 12%;
+    width: 172px;
+    height: 168px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #FFCE1F;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#ISTP {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 165px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFCE1F;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGISFP {
+    margin-bottom: 10%;
+    width: 172px;
+    height: 168px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #FFCE1F;
+    background: url(<path-to-image>), lightg
+}
+
+#ISFP {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 168px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFCE1F;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGESTP {
+    margin-bottom: 10%;
+    width: 172px;
+    height: 168px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #FFCE1F;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#ESTP {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 165px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFCE1F;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#IMGESFP {
+    margin-bottom: 10%;
+    width: 172px;
+    height: 168px;
+    flex-shrink: 0;
+    border-radius: 409.5px;
+    border: 5px solid #FFCE1F;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#ESFP {
+    position: relative;
+    bottom: 4%;
+    left: -10%;
+    width: 165px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFCE1F;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#sectionsecond {
+    margin-left: 20%;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #00072D;
+    width: 1310px;
+    height: 1047px;
+    flex-shrink: 0;
+}
+
+#h2second {
+    position: relative;
+    top: 5%;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#h4second {
+    position: relative;
+    top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    color: #FFF;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#h1first {
+    position: relative;
+    left: 5%;
+    text-align: left;
+    overflow: hidden;
+    color: #FFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#h4third {
+    position: relative;
+    left: 5%;
+    text-align: left;
+    overflow: hidden;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#imgleft {
+    position: relative;
+    left: 5%;
+    justify-content: left;
+    overflow: hidden;
+    width: 348.69px;
+    height: 232.46px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#hrfirst {
+    position: relative;
+    right: 31.6%;
+    justify-content: left;
+    width: 26.3%;
+
+}
+
+#pfirst {
+    width: 380px;
+    height: 160px;
+    position: relative;
+    left: 5%;
+    text-align: left;
+    overflow: hidden;
+    color: #FFF;
+    text-align: justify;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 14.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#saibafirst {
+    width: 380px;
+    height: 160px;
+    position: relative;
+    left: 5%;
+    bottom: 10%;
+    text-align: left;
+    overflow: hidden;
+    color: #FFF;
+    text-align: justify;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#h1second {
+    position: relative;
+    right: 12%;
+    bottom: 58.7%;
+    text-align: center;
+    overflow: hidden;
+    color: #FFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#h4fourth {
+    position: relative;
+    right: 10%;
+    bottom: 58.6%;
+    text-align: center;
+    overflow: hidden;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#imgcenter {
+    position: relative;
+    bottom: 58.6%;
+    left: 35%;
+    justify-content: center;
+    overflow: hidden;
+    width: 348.69px;
+    height: 232.46px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#hrsecond {
+    position: relative;
+    right: 1.8%;
+    bottom: 58.7%;
+    justify-content: center;
+    width: 26.2%;
+}
+
+#psecond {
+    width: 380px;
+    height: 160px;
+    position: relative;
+    left: 35%;
+    bottom: 58.8%;
+    text-align: center;
+    overflow: hidden;
+    color: #FFF;
+    text-align: justify;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 14.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#saibasecond {
+    width: 380px;
+    height: 160px;
+    position: relative;
+    left: 35%;
+    bottom: 68.6%;
+    text-align: center;
+    overflow: hidden;
+    color: #FFF;
+    text-align: justify;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#h1third {
+    position: relative;
+    right: 29.3%;
+    bottom: 117.3%;
+    text-align: right;
+    overflow: hidden;
+    color: #FFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#h4fifth {
+    position: relative;
+    right: 23.5%;
+    bottom: 117.3%;
+    text-align: right;
+    overflow: hidden;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#imgright {
+    position: relative;
+    bottom: 117.3%;
+    left: 65%;
+    justify-content: right;
+    overflow: hidden;
+    width: 348.69px;
+    height: 232.46px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#hrthird {
+    position: relative;
+    left: 28.3%;
+    bottom: 117.3%;
+    justify-content: right;
+    width: 26.2%;
+}
+
+#pthird {
+    width: 380px;
+    height: 160px;
+    position: relative;
+    left: 65%;
+    bottom: 117.5%;
+    overflow: hidden;
+    color: #FFF;
+    text-align: justify;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 14.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#saibathird {
+    width: 380px;
+    height: 160px;
+    position: relative;
+    left: 65%;
+    bottom: 138.3%;
+    text-align: center;
+    overflow: hidden;
+    color: #FFF;
+    text-align: justify;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montaga;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#imgdiscord {
+    width: 280px;
+    height: 130px;
+    position: relative;
+    left: 65%;
+    bottom: 115%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+   }
+   
+a:hover {
+    color: #FFCE1F;
+    text-decoration: underline;
+   }
+
+a:visited {
+    color: #7ACFFF;
+}

@@ -1,0 +1,203 @@
+body{ 
+    background-color: rgb(0, 0, 0)
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+}
+ 
+footer {
+    background-color: #03045e;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 15px;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  /* flip card animes */
+  h5 {
+    text-align: center;
+}
+
+.flip-custom {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 1em;
+    width: 320px;
+    height: 700px;
+    perspective: 1000px;
+}
+
+.flip-custom > .front-custom,
+.flip-custom > .back-custom {
+    display: block;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.flip-custom > .front-custom {
+    background-size: cover;
+    background-position: center;
+    transform: rotateX(0deg);
+}
+
+.flip-custom > .back-custom {
+    background: #201f1f;
+    transform: rotateX(180deg);
+}
+
+.flip-custom:hover > .front-custom {
+    transform: rotateX(-180deg);
+}
+
+.flip-custom:hover > .back-custom {
+    transform: rotateX(0deg);
+}
+
+.text-shadow-custom {
+    text-shadow: 1px 1px rgba(12, 11, 11, 0.04), 2px 2px rgba(17, 16, 16, 0.04), 3px 3px rgba(19, 17, 17, 0.04);
+    align-items: center;
+}
+  
+  /* flip card noticias */
+  h4 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.flip {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 1em;
+    width: 800px;
+    height: 400px;
+    perspective: 1000px;
+}
+
+.flip > .front,
+.flip > .back {
+    display: block;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.flip > .front {
+    background-size: cover;
+    background-position: center;
+    transform: rotateX(0deg);
+}
+
+.flip > .back {
+    background: #201f1f;
+    transform: rotateX(180deg);
+}
+
+.flip:hover > .front {
+    transform: rotateX(-180deg);
+}
+
+.flip:hover > .back {
+    transform: rotateX(0deg);
+}
+
+.text-shadow {
+    text-shadow: 1px 1px rgba(12, 11, 11, 0.04), 2px 2px rgba(17, 16, 16, 0.04), 3px 3px rgba(19, 17, 17, 0.04);
+    align-items: center;
+}
+
+/* Footer */
+
+/* Reset CSS para limpar estilos padrão do navegador */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #343a40; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto branca */
+    padding-top: 40px;
+}
+
+/* Estilo do contêiner no rodapé */
+footer .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Estilo para as listas no rodapé */
+footer ul {
+    list-style: none;
+}
+
+/* Estilo para os links no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo para os ícones das redes sociais */
+footer a i {
+    margin-right: 5px;
+}
+
+/* Estilo para as colunas no rodapé */
+footer .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Estilo para a seção de contato */
+footer h5 {
+    border-bottom: 1px solid #fff; /* Linha abaixo dos títulos */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para tornar o rodapé mais responsivo em dispositivos menores */
+@media (max-width: 767px) {
+    footer .col-md-4 {
+        text-align: center;
+    }
+}
